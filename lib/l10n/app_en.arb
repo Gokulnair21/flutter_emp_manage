@@ -1,0 +1,20 @@
+{
+
+"employee_list":"Employee List",
+"current_employee":"Current employees",
+"previous_employee":"Previous employees",
+"swipe_left_to_delete":"Swipe left to delete",
+"add_employee_details":"Add Employee Details",
+"edit_employee_details":"Edit Employee Details",
+"employee_name":"Employee name",
+"save":"Save",
+"cancel":"Cancel",
+"select_role":"Select role",
+"start":"Start",
+"end":"End",
+"employee_data_deleted":"Employee data has been deleted",
+"undo":"Undo",
+"employee_data_added":"Employee data has been added",
+"employee_data_updated":"Employee data has been updated"
+
+}
