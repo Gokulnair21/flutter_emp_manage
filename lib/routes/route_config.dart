@@ -1,9 +1,9 @@
+
 import 'package:employee_management/domain/entity/employee_entity.dart';
 import 'package:employee_management/presentation/details/details_page.dart';
 import 'package:employee_management/presentation/home/home_page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
 import 'route.dart';
 
 class MyRouterConfig {
@@ -18,7 +18,7 @@ class MyRouterConfig {
         final data = settings.arguments as EmployeeEntity?;
         return CupertinoPageRoute(
           settings: settings,
-          builder: (_) => DetailsPage(
+          builder: (context) => DetailsPage(
             employeeEntity: data,
           ),
         );
@@ -27,7 +27,7 @@ class MyRouterConfig {
           settings: settings,
           builder: (_) => Scaffold(
             appBar: AppBar(
-              title: const Text('Error Occured during navigation'),
+              title: const Text('Error Occurred during navigation'),
             ),
             body: Center(
               child: Text(

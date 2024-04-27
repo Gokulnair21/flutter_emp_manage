@@ -8,7 +8,9 @@ import 'package:injectable/injectable.dart';
 
 @Injectable()
 class DetailsBloc extends Cubit<DetailsState> {
-  DetailsBloc(this._employeeRepository) : super(DetailsState.initialize());
+  DetailsBloc(this._employeeRepository) : super(DetailsState.initialize()){
+    print("Initialized new constructor");
+  }
   final EmployeeRepository _employeeRepository;
 
   initialize(){

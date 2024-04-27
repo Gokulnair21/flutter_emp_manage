@@ -21,9 +21,6 @@ class EmployeeRepositoryImpl implements EmployeeRepository {
 
   @override
   Future<void> delete(int id) async {
-    // final location =
-    //     _employeeBox.values.toList().indexWhere((element) => element.id == id);
-    // print("Location : $location");
     await _employeeBox.delete(id.toString());
   }
 

@@ -305,6 +305,7 @@ class _DetailsPageState extends State<DetailsPage> with Validation {
     desController.dispose();
     startController.dispose();
     endController.dispose();
+    // context.read<DetailsBloc>().close();
     super.dispose();
   }
 }
